@@ -1,0 +1,24 @@
+
+# OS generated files #
+######################
+.DS_Store
+
+# Development Themes #
+######################
+/wp-content/themes/naked-theme
+/wp-content/themes/proxy-theme
+/wp-content/themes/skeleton-theme
+
+# Backup Buddy #
+################
+/wp-content/uploads/backupbuddy_temp
+/wp-content/uploads/component/pb_backupbuddy
+/wp-content/uploads/component/backupbuddy/backups
+
+# Additional #
+##############
+# /wp-content/themes/proxy-theme/config.codekit3
+# /wp-content/themes/proxy-theme/css/theme.css.map
+# /wp-content/themes/proxy-theme/css/backend.css.map
+# /wp-content/plugins/acf-fonticonpicker-master
+.DS_Store

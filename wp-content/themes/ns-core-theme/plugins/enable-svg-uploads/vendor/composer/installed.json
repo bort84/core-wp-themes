@@ -1,0 +1,47 @@
+[
+    {
+        "name": "lewiscowles/file-extension-utils",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Lewiscowles1986/filesystem-file-extension-php.git",
+            "reference": "1b304bf212f5f60311bb3a83f3465c018fee0f17"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Lewiscowles1986/filesystem-file-extension-php/zipball/1b304bf212f5f60311bb3a83f3465c018fee0f17",
+            "reference": "1b304bf212f5f60311bb3a83f3465c018fee0f17",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0"
+        },
+        "require-dev": {
+            "ext-xdebug": "*",
+            "phpunit/phpunit": "^6.0"
+        },
+        "time": "2017-11-16T11:42:08+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "lewiscowles\\Utils\\FileSystem\\Extension\\": "src"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0"
+        ],
+        "authors": [
+            {
+                "name": "Lewis Cowles",
+                "email": "lewiscowles@me.com"
+            }
+        ],
+        "description": "Utilities for dealing with file extensions"
+    }
+]

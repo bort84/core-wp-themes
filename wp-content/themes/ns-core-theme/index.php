@@ -1,0 +1,1 @@
+<p>Please activate child theme <a href="/wp-admin/themes.php">here</a>.</p>

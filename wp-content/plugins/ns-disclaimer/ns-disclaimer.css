@@ -1,0 +1,192 @@
+#idDisclaimerContainer p {
+	margin-top: 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+#idDisclaimerContainer {
+  position: fixed;
+  background-color: #fff;
+  padding: 0;
+  z-index: 99999;
+  overflow: hidden;
+}
+
+.lt-ie7 #idDisclaimerContainer, .lt-ie7  #idDisclaimerOverlay {
+  position: absolute;
+}
+
+.lt-ie7 * {
+	zoom: 1;
+}
+
+#idDisclaimerOverlay {
+  background-color: #000;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  z-index: 99998;
+}
+
+#idDisclaimerTitle {
+  padding: 15px;
+  font-size: 21px !important;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 150%;
+  line-height: 115%;
+  font-weight: bold;
+}
+
+#idDisclaimerBody {
+  text-align: left;
+  padding: 15px;
+  overflow: auto;
+  font-size: 12px;
+  line-height: 18px;
+  overflow-y: auto !important;
+  z-index: 10000;
+}
+
+#idDisclaimerBody p {
+  margin-bottom: 18px;
+}
+
+#idDisclaimerButtons {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 5px 15px 0 15px;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+#idDisclaimerButtons div {
+	display: block;
+	clear: both;
+	width: 95%;
+	min-height: 50px;
+	margin: 7px 0;
+}
+
+#idDisclaimerButtons.inline div {
+  display: inline-block;
+  width: auto;
+  margin-bottom: 0;
+}
+
+#idDisclaimerButtons.inline div a {
+  display: inline-block;
+}
+
+#idDisclaimerButtons a {
+  min-width: 70px;
+  text-align: center;
+  display: block;
+  float: left;
+  padding: 7px;
+  margin: 0 15px 0 0;
+  border: 1px solid #ccc;
+  background-color: #eee;
+  color: #000 !important;
+  cursor: pointer;
+  cursor: hand;
+  text-decoration: none;
+}
+
+#idDisclaimerButtons p {
+	padding: 12px 0 0 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+/* Modal Hacks */
+
+// Apparently not required, and breaks things on mobile...
+
+// html.disclaimer-on body.modal .header-wrapper, html.disclaimer-on body.modal .content, html.disclaimer-on body.modal footer {
+//   display: none !important;
+// }
+
+body.modal #idDisclaimerOverlay {
+	position: fixed;
+	background-color: #fff;
+	opacity: 1;
+}
+
+body.modal #idDisclaimerContainer {
+	position: absolute;
+	width: 100%;
+  min-height: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: auto;
+	padding-bottom: 70px;
+}
+
+body.modal #idDisclaimerButtons {
+  position: fixed;
+  bottom: -10px;
+  left: 0;
+	font-size: 12px;
+	margin: 10px 0; 
+	padding: 0;
+}
+
+body.modal #idDisclaimerButtons a {
+	float: left;
+	padding: 2px;
+	min-width: 55px;
+	margin-right: 10px;
+}
+
+body.modal #idDisclaimerButtons div {
+	min-height: 25px;
+}
+
+body.modal #idDisclaimerAgreeSection, body.modal #idDisclaimerDisagreeSection {
+	margin: 15px;
+}
+
+body.modal #idDisclaimerButtons.inline #idDisclaimerAgreeSection,
+body.modal #idDisclaimerButtons.inline #idDisclaimerDisagreeSection {
+  margin: 15px 0;
+}
+
+body.modal #idDisclaimerButtons.inline {
+  margin-left: 15px;
+}
+
+
+body.modal #idDisclaimerAgreeSection p, body.modal #idDisclaimerDisagreeSection p {
+	float: left;
+	width: 75%;
+	padding-top: 0;
+	font-size: 13px;
+	line-height: 13px;
+}
+
+
+body.modal #idDisclaimerTitle {
+	padding: 0 0 10px 0;
+ 	margin: 15px;	
+}
+
+body.modal #idDisclaimerBody {
+	padding: 0;
+	margin: 15px 15px 100px 15px;
+}
+
+
+/* Disabled Styles */
+
+#idDisclaimerButtons a.disabled {
+ // border: 1px solid #ccc !important;
+  background-color: #dadada !important;
+  color: #aaa !important;
+}
+

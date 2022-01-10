@@ -1,0 +1,37 @@
+/* For fixed publish box */
+@media only screen and (min-width: 851px) {
+
+	#side-sortables.active > * {
+		visibility: hidden;
+	}
+
+	#side-sortables.active #submitdiv {
+		visibility: visible;
+		position: fixed !important;
+		top: 50px;
+		margin-right: 20px;
+	}
+
+	#submitdiv .anchor {
+		display: none;
+	}
+	
+	#side-sortables.active #submitdiv .anchor {
+		display: block;
+		padding: 20px;
+		text-align: center;
+		outline: none;
+		background: #18c384;
+		color: #fff;
+		text-decoration: none;
+		font-size: 15px;
+	}
+
+	#side-sortables.active #submitdiv .anchor:hover {
+		background: #38b184;
+	}
+
+	#side-sortables.active #submitdiv .anchor:focus {
+		outline: none;
+	}
+} 
